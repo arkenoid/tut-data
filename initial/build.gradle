@@ -3,7 +3,8 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 
 repositories {
-    mavenCentral()
+//    mavenCentral()
+    maven { url "http://localhost:8081/artifactory/remote-repos" }
 }
 
 dependencies {
